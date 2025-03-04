@@ -13,3 +13,9 @@ This project demonstrates fine-tuning a pre-trained language model (DistilBERT) 
 1. Clone the repository
 2. Create a virtual environment
 3. Install dependencies:
+## Usage
+### Training
+```bash
+python src/train.py
+### Prediction
+python src/predict.py --text "Your text here"
